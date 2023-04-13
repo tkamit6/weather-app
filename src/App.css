@@ -1,0 +1,52 @@
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/open-weather/2.0.0/openweather.min.js'); */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+body{
+  background-color: #333;
+  color: #fff;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+.main-container{
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  margin: 2rem 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  font-family: 'PT Sans', sans-serif;
+}
+.weather{
+margin: auto;
+width: 80%;
+margin-top: 3rem;
+}
+.weatherIcon i{
+  font-size: 4rem;
+}
+.weatherDes h3{
+  text-transform: uppercase;
+}
+.weatherDeg span{
+  font-size: 5rem;
+}
+.weatherDay span{
+  font-size: 2rem;
+}
+.weathermood {
+  font-size: 2rem;
+  font-weight: 600;
+}
+@media only screen and (max-width: 768px) {
+  .weatherDeg span{
+    font-size: 4rem;
+  }
+  .weatherDay span{
+    font-size: 1.5rem;
+  }
+  .weatherExtraInfo{
+    font-size: .8rem;
+  }
+  .weather{
+    width: 100%;
+  }
+}
